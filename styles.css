@@ -1,4 +1,5 @@
 
+
 /*General styling*/
 * {
 	margin: 0;
@@ -117,7 +118,7 @@ body {
 .btn {
 	color: #3693ff;
 	text-decoration: none;
-	dispaly: inline-block;
+	display: inline-block;
 	padding: 1rem 2rem;
 	border: 1px solid #3693ff;
 	border-radius: 10px;
@@ -187,11 +188,11 @@ body {
 #services .box {
 	background: #fff;
 	flex: 1;
-	padding: 3rem;
+	padding: 2rem;
 	margin: 0 3rem;
 	border-radius: 10px;
 	box-shadow: 2px 2px 5px #d1d1d1;
-	font-size: 1.3rem;
+	font-size: 1rem;
 }
 
 
@@ -207,12 +208,12 @@ body {
 
 #testimonials {
 	background: url("img/testimonials-bg.jpg") no-repeat center center/cover;
-	height: 150vh;
+	height: 87vh;
 	
 }
 .testimonials-bg {
 	position: absolute;
-	height: 150%;
+	height: 87%;
 	width: 100%;
 	background: rgba(0,0,0,0.6);
 	padding: 5rem 0;
@@ -233,7 +234,7 @@ body {
 #testimonials .box {
 	background: rgba(54,147,255,0.7);
 	display: flex;
-	padding: 2rem;
+	padding: 1rem;
 	align-items: center;
 	border-radius: 15px;
 }
@@ -262,8 +263,8 @@ body {
 
 #contact h2 {
 	text-align: center;
-	font-size: 3rem;
-	margin-bottom: 8rem;
+	font-size: 2rem;
+	margin-bottom: 6rem;
 }
 
 #contact h3 {
@@ -274,7 +275,7 @@ body {
 }
 #contact .form-box {
 	background: #fff;
-	padding: 3rem;
+	padding: 1rem;
 	box-shadow: 2px 2px 5px #d1d1d1;
 	border-radius: 10px;
 }
@@ -319,7 +320,8 @@ body {
 	margin-bottom: 2rem;
 	cursor: pointer;
 	transition: background 0.3s;
-	
+	text-decoration: none;
+	text-align: center;
 }
 
 #contact .contact-btn:hover{
@@ -336,7 +338,7 @@ body {
 	font-size: 4rem;
 	background: #3693ff;
 	color: #fff;
-	dispaly: inline-block;
+	display: inline-block;
 	padding: 1.5rem 2rem;
 	border-radius: 50%;
 	position: absolute;
@@ -353,6 +355,16 @@ footer {
 footer p{
 	text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
